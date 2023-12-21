@@ -1,22 +1,24 @@
-#MVP Data Engineering
+# MVP Data Engineering
+Building an ETL Process for Data Ingestion on ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
 @author: Monique Dali
 
-Course: Data Science & Analytics
+Course: Data Engineering @ Data Science & Analytics Graduate Program
 
 University: PUC-Rio
 
-##Database
+## Database
 The information was extracted from the public database of Brazilian's national oil regulator agency. This dataset contains montly information about crude oil and natural gas production per well located in Brazil. Only the accessible montly production of 2023 was downloaded. On the time of this work, July was the last month updated.
 
-The dataset is available in: https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/producao-de-petroleo-e-gas-natural-por-poco
+The dataset is available in: [ANP](https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/producao-de-petroleo-e-gas-natural-por-poco)
 
 AWS was chosen as the cloud service to perform the ETL jobs.
 
-image.png
+![Screenshot](https://github.com/mfdali/br-oil-production/blob/main/ANP-metadata_screenshot.png?raw=true)
 
 Metadata is also available in: https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-producao-de-petroleo-e-gas-natural-por-poco/metadados-dados-producao-poco.pdf
 
-image.png
+![Metadata](https://github.com/mfdali/br-oil-production/blob/main/ANP-metadata_table.png)
 
 ##Data quality
 There are many problems in this public dataset:

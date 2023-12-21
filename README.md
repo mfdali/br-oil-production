@@ -1,5 +1,6 @@
 # MVP Data Engineering
-Building an ETL Process for Data Ingestion on ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+Building an ETL Process for Data Ingestion 
+on ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
 @author: Monique Dali
 
@@ -20,7 +21,7 @@ Metadata is also available in: https://www.gov.br/anp/pt-br/centrais-de-conteudo
 
 ![Metadata](https://github.com/mfdali/br-oil-production/blob/main/ANP-metadata_table.png)
 
-##Data quality
+## Data quality
 There are many problems in this public dataset:
 
 Variations in the name of the states, fields and basins difficulting aggregation and calculation;
@@ -33,19 +34,20 @@ Numbers in brazilian format: decimal separator is comma (,) and thousand separat
 Proposal
 With this database, data analysis process wants to answer a couple of general questions about crude oil commercial extraction during 2023 in Brazil.
 
-##Goals:
+## Goals:
 
 Crude oil production analysis
 
-What is the crude oil production of brazil accumulated in 2023?
-What was the oil production per month?
-What is the crude oil production accumulated per well location?
-What are the top companies in oil production in 2023 with total number of wells and average oil production per well?
-What is the most productive state?
-What is the most productive field?
-What is the most productive well?
+- What is the crude oil production of brazil accumulated in 2023?
+- What was the oil production per month?
+- What is the crude oil production accumulated per well location?
+- What are the top companies in oil production in 2023 with total number of wells and average oil production per well?
+- What is the most productive state?
+- What is the most productive field?
+- What is the most productive well?
+
 Water is an undesirable subproduct of oil extraction. Water injection is widely used as secondary recovery method in wells. However, it is not good to produce water in high levels. Mature wells have oil production curve in decline.
 
-What is the worst state in terms of crude oil extraction efficience?
-In which state are located the worst fields in efficience?
-What are the 10 most inneficient wells with oil production?
+- What is the worst state in terms of crude oil extraction efficience?
+- In which state are located the worst fields in efficience?
+- What are the 10 most inneficient wells with oil production?
